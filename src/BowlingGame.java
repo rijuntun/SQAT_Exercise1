@@ -36,7 +36,7 @@ public class BowlingGame {
 			score+=fr.score();
 			if (fr.isSpare() )
 			{
-			    if (i<10)
+			    if (i<9)
 			    {
 			    	Frame nf=frames.get(i+1);
 					score+=nf.getFirstThrow();
