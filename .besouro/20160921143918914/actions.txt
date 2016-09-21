@@ -38,3 +38,6 @@ UnitTestSessionAction 1474460960092 TestBowling.testAdd2Frames FAIL
 UnitTestCaseAction 1474461001995 TestBowling.java FAIL
 UnitTestSessionAction 1474461001995 TestBowling.testAdd2Frames FAIL
 EditAction 1474461046008 TestBowling.java 723 4 15 3
+UnitTestCaseAction 1474461052872 TestBowling.java OK
+UnitTestSessionAction 1474461052873 TestBowling.testAdd2Frames OK
+EditAction 1474461480280 BowlingGame.java 774 4 1 0

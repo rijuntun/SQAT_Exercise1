@@ -29,6 +29,9 @@ public class BowlingGame {
 		for(Frame fr: frames)
 		{
 			score+=fr.score();
+			if (fr.isSpare() )
+				&& !fr.isStrike())
+			
 		}
 		return score;
 	}
