@@ -14,3 +14,11 @@ UnitTestCaseAction 1474460134636 TestBowling.java FAIL
 UnitTestSessionAction 1474460134636 Rerun TestBowling.testAddFrame FAIL
 EditAction 1474460217857 Frame.java 696 6 7 0
 EditAction 1474460217930 TestBowling.java 333 2 5 1
+UnitTestCaseAction 1474460222175 TestBowling.java OK
+UnitTestSessionAction 1474460222176 Rerun TestBowling.testAddFrame OK
+RefactoringAction 1474460367743 TestBowling.java ADD void testAddSpare() METHOD
+FileOpenedAction 1474460448458 BowlingException.java 58 0 0 0
+RefactoringAction 1474460687307 TestBowling.java ADD void testAddFrame()/2 METHOD
+RefactoringAction 1474460692312 TestBowling.java RENAME testAddFrame()/2=>void testAdd2Frame() METHOD
+RefactoringAction 1474460697317 TestBowling.java RENAME testAdd2Frame()=>void testAdd2Frames() METHOD
+EditAction 1474460756152 TestBowling.java 702 4 14 3
