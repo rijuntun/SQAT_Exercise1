@@ -26,12 +26,25 @@ public class BowlingGame {
 	public int score(){
 		//to be implemented: should return game score
 		int score=0;
+		int i=0;
+		
+	   //ListIterator<Frame> fr = frames.listIterator(i);
+			
 		for(Frame fr: frames)
 		{
 			score+=fr.score();
 			if (fr.isSpare() )
-				&& !fr.isStrike())
-			
+			{
+				Frame nf=frames.get(i+1);
+				score+=nf.getFirstThrow();
+			}	
+			if(fr.isStrike()){
+				Frame nf=frames.get(i+1);
+				score+=nf.score();
+				
+			}
+				
+			i++;
 		}
 		return score;
 	}
