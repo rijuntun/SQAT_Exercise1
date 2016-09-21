@@ -19,11 +19,11 @@ public class TestBowling {
 		Frame fr= new Frame(1,4);
 		bg.addFrame(fr);
 		Frame fr2=new Frame(4,5);
-		assertEquals(15, bg.score());
+		assertEquals(14, bg.score());
 		
 	}
 	
-	@test 
+	@Test 
 	public void testAddSpare(){
 		BowlingGame bg= new BowlingGame();
 		Frame fr= new Frame(5,5);

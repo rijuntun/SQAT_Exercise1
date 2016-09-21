@@ -22,3 +22,8 @@ RefactoringAction 1474460687307 TestBowling.java ADD void testAddFrame()/2 METHO
 RefactoringAction 1474460692312 TestBowling.java RENAME testAddFrame()/2=>void testAdd2Frame() METHOD
 RefactoringAction 1474460697317 TestBowling.java RENAME testAdd2Frame()=>void testAdd2Frames() METHOD
 EditAction 1474460756152 TestBowling.java 702 4 14 3
+CompilationAction 1474460756381 TestBowling.java
+CompilationAction 1474460786687 TestBowling.java
+UnitTestCaseAction 1474460790439 TestBowling.java FAIL
+UnitTestSessionAction 1474460790439 TestBowling.java FAIL
+EditAction 1474460815610 TestBowling.java 702 4 14 3
