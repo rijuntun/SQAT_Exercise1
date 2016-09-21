@@ -42,11 +42,16 @@ public class BowlingGame {
 					score+=nf.getFirstThrow();
 			    }
 			    else 
-			    	score+=bonus.score();
+			    	score+=bonus.getFirstThrow();
 			}	
 			if(fr.isStrike()){
-				Frame nf=frames.get(i+1);
-				score+=nf.score();
+				if (i<9)
+				{
+					Frame nf=frames.get(i+1);
+					score+=nf.score();
+				}
+				else
+					score+=bonus.score();				
 				
 			}
 				
