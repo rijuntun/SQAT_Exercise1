@@ -25,7 +25,7 @@ public class TestBowling {
 	}
 	
 	@Test 
-	public void testAddSpare(){
+	public void testAll(){
 		BowlingGame bg= new BowlingGame();
 		Frame fr= new Frame(1,4);
 		bg.addFrame(fr);
