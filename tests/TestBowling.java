@@ -27,9 +27,13 @@ public class TestBowling {
 	@Test 
 	public void testAddSpare(){
 		BowlingGame bg= new BowlingGame();
-		Frame fr= new Frame(5,5);
+		Frame fr= new Frame(1,4);
 		bg.addFrame(fr);
-		assertEquals(5, bg.score());
+		Frame fr2=new Frame(4,5);
+		bg.addFrame(fr2);
+		Frame fr3=new Frame(6,4);
+		bg.addFrame(fr3);
+		assertEquals(14, bg.score());
 		
 	}
 
