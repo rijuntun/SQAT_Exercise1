@@ -37,7 +37,7 @@ public class TestBowling {
 		bg.addFrame(fr4);
 		Frame fr5=new Frame(10,0);
 		bg.addFrame(fr5);
-		Frame fr6=new Frame(0,0);
+		Frame fr6=new Frame(0,1);
 		bg.addFrame(fr6);
 		Frame fr7=new Frame(7,3);
 		bg.addFrame(fr7);
