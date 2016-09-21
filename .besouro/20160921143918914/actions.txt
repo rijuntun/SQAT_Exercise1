@@ -13,3 +13,4 @@ UnitTestSessionAction 1474460131020 Rerun TestBowling.testAddFrame FAIL
 UnitTestCaseAction 1474460134636 TestBowling.java FAIL
 UnitTestSessionAction 1474460134636 Rerun TestBowling.testAddFrame FAIL
 EditAction 1474460217857 Frame.java 696 6 7 0
+EditAction 1474460217930 TestBowling.java 333 2 5 1
