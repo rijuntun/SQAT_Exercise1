@@ -48,7 +48,6 @@ public class TestBowling {
 		Frame fr10=new Frame(2,8);
 		bg.addFrame(fr10);
 		
-		
 		bg.setBonus(6, 0);
   
 	    assertEquals(133, bg.score());
